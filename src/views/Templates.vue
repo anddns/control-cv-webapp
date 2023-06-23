@@ -10,7 +10,7 @@
                     <li>
 
                         <a href="#" class="text-gray-300">
-                            Documentos
+                            Modelos
                         </a>
 
                     </li>
@@ -20,7 +20,7 @@
                     <li>
 
                         <a href="#" class="text-gray-400">
-                            Modelos
+                            Lista
                         </a>
 
                     </li>
@@ -36,12 +36,37 @@
         </template>
 
         <template #content>
-            <div class="grid w-full grid-cols-3 gap-6 mb-6 "></div>
+
+            <section>
+
+                <div class="mx-auto max-w-7xl">
+
+                    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+
+                        <document-card></document-card>
+
+                        <document-card></document-card>
+
+                        <document-card></document-card>
+
+                        <document-card></document-card>
+
+                        <document-card></document-card>
+
+                        <document-card></document-card>
+
+                    </div>
+
+                </div>
+
+            </section>
+
         </template>
     </authenticated-layout>
 </template>
 
 <script setup>
+import DocumentCard from 'components/DocumentCard.vue';
 import AuthenticatedLayout from 'layouts/AuthenticatedLayout.vue';
 import TheNavbar from "@/components/TheNavbar.vue";
 </script>
