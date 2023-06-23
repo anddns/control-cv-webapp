@@ -13,7 +13,8 @@ export default defineConfig({
       assets: fileURLToPath(new URL('./src/assets/', import.meta.url)),
       layouts: fileURLToPath(new URL('./src/layouts/', import.meta.url)),
       views: fileURLToPath(new URL('./src/views/', import.meta.url)),
-      components: fileURLToPath(new URL('./src/components/', import.meta.url))
+      components: fileURLToPath(new URL('./src/components/', import.meta.url)),
+      routes: fileURLToPath(new URL('./src/router/routes/', import.meta.url))
     }
   }
 })
