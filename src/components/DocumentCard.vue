@@ -1,7 +1,10 @@
 <template>
     <div class="max-w-sm bg-gray-800 border border-gray-600 rounded-lg shadow-sm">
 
-        <img src=" ../../template-01.png"
+        <!-- <img src=" ../../template-01.png"
+            class="block object-cover object-top w-full max-w-full p-4 rounded-lg pointer-events-none select-none"> -->
+
+        <img src="https://cdn.enhancv.com/single_column_resume_template_1_c1e24e6e04.png"
             class="block object-cover object-top w-full max-w-full p-4 rounded-lg pointer-events-none select-none">
 
         <div class="px-5 pb-5">
