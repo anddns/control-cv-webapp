@@ -10,7 +10,7 @@
                     <li>
 
                         <a href="#" class="text-gray-300">
-                            Products
+                            Currículos
                         </a>
 
                     </li>
@@ -20,7 +20,7 @@
                     <li>
 
                         <a href="#" class="text-gray-400">
-                            List
+                            Lista
                         </a>
 
                     </li>
